@@ -11,7 +11,7 @@ class Ynv < Formula
   on_macos do
     on_intel do
       url "https://github.com/snooc/ynv/releases/download/v0.1.1/ynv_Darwin_x86_64.tar.gz"
-      sha256 "9065ce4460bbb700b30fb44f905f0416051e6704da63fbfcb1a1f0c1c6e073e2"
+      sha256 "d3f5f8fce77a87540adaea83e803b22485384143c757d1d45f1a5dd3b2bda60e"
 
       def install
         bin.install "ynv"
@@ -19,7 +19,7 @@ class Ynv < Formula
     end
     on_arm do
       url "https://github.com/snooc/ynv/releases/download/v0.1.1/ynv_Darwin_arm64.tar.gz"
-      sha256 "ada9a1ece3dfb331ec28c4aa49c573e198a3db4eafd90aa0eda0d9d5571c278f"
+      sha256 "76051ed647be7d5acc49ad10c0c6d51eda0c6d4a22ca5f8440dffd54ec7c6afb"
 
       def install
         bin.install "ynv"
@@ -31,7 +31,7 @@ class Ynv < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/snooc/ynv/releases/download/v0.1.1/ynv_Linux_x86_64.tar.gz"
-        sha256 "6e9b4de8b178ed659bb02ccf21493eb60784c52c4e39c0791e1724778de48d9f"
+        sha256 "0afdda68c9d478b555c19950ef589a86600ac78f4c72e4e002519038550365dd"
 
         def install
           bin.install "ynv"
@@ -41,7 +41,7 @@ class Ynv < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/snooc/ynv/releases/download/v0.1.1/ynv_Linux_arm64.tar.gz"
-        sha256 "015a0868b3db7c09b0f117055dbdd8c71a46513a6df626997eb61e460b69a299"
+        sha256 "4c7e0dd3553be9f51197855a36074401681c36a81f42fc60bc0badd30302bc2e"
 
         def install
           bin.install "ynv"
